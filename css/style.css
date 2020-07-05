@@ -215,7 +215,7 @@ span.m-left {
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
 }
 
@@ -351,5 +351,116 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   text-transform: capitalize;
+}
+
+@media(max-width: 1440px) {
+  .main-info-section {
+    padding: 0;
+  }
+  .main-info-section .text p {
+    width: 26rem;
+  }
+}
+
+@media(max-width: 870px) {
+  .main-info-section .text p {
+    width: 16rem;
+  }
+
+  .experience {
+    margin-bottom: 7rem;
+  }
+
+  .experience h1 {
+    font-size: 8rem;
+  }
+}
+
+@media(max-width: 710px) {
+  .profile-image img {
+    width: 376px;
+  }
+
+  .about {
+    padding: 0;
+    height: inherit;
+  }
+
+  .about h1, .skills h1 {
+    font-size: 6.8rem;
+  }
+
+  .skills {
+    padding: 0;
+  }
+
+  .about-me-info {
+    box-shadow: none;
+    padding: 0;
+    top: 0;
+    width: 80%;
+  }
+
+  .skills-info {
+    width: 80%;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .work h1, .links h1, .contact h1 {
+    font-size: 6.8rem;
+  }
+
+  .links ul, .contact ul {
+    font-size: 1.3rem;
+  }
+
+  .experience h1 {
+    font-size: 4.8rem;
+  }
+
+  .work {
+    padding: 0;
+  }
+
+  .experience {
+    margin-bottom: 0;
+  }
+
+  .links, .contact {
+    padding: 0;
+  }
+
+  .contact ul {
+    text-align: right;
+  }
+}
+
+@media(max-width: 640px) {
+  .profile-image {
+    display: none;
+  }
+
+  .text {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+@media(max-width: 392px) {
+  .text {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  * {
+    font-size: 10px;
+  }
 }
 
