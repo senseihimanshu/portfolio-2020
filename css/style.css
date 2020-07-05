@@ -354,11 +354,14 @@ nav ul li a {
 }
 
 @media(max-width: 1440px) {
-  .main-info-section {
-    padding: 0;
-  }
   .main-info-section .text p {
     width: 26rem;
+  }
+}
+
+@media(max-width: 1082px) {
+  .main-info-section {
+    padding: 0;
   }
 }
 
